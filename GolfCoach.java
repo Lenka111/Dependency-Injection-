@@ -4,6 +4,8 @@ public class GolfCoach implements Coach {
 
 	private FortuneService fortuneService;
 	
+	
+	// used for constructoor injection
 	public GolfCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
