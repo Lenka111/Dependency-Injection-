@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RandomFortuneService implements FortuneService {
 
-	// create an array of strings
+	// create an array of fortune messages
 	private String[] data = { 
 			"Beware of the wolf in sheep's clothing",
 			"Diligence is the mother of good luck",
@@ -19,6 +19,7 @@ public class RandomFortuneService implements FortuneService {
 		// pick a random string from the array
 		int index = myRandom.nextInt(data.length);
 		
+		//random message 
 		String theFortune = data[index];
 		
 		return theFortune;
