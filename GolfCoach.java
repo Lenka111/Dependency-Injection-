@@ -1,4 +1,4 @@
-
+//Elena Voinu
 
 public class GolfCoach implements Coach {
 
