@@ -1,12 +1,12 @@
 
-
+//Elena Voinu
 import java.util.Random;
 
 public class RandomFortuneService implements FortuneService {
 
 	// create an array of fortune messages
 	private String[] data = { 
-			"Beware of the wolf in sheep's clothing",
+			"Today is your lucky day",
 			"Diligence is the mother of good luck",
 			"The journey is the reward"
 	};
