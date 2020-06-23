@@ -8,7 +8,7 @@ public class RandomFortuneService implements FortuneService {
 	private String[] data = { 
 			"Today is your lucky day",
 			"you look hungry",
-			"The journey is the reward"
+			"Don't worry, be happy"
 	};
 	
 	// create a random number generator
