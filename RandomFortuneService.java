@@ -7,7 +7,7 @@ public class RandomFortuneService implements FortuneService {
 	// create an array of fortune messages
 	private String[] data = { 
 			"Today is your lucky day",
-			"Diligence is the mother of good luck",
+			"you look hungry",
 			"The journey is the reward"
 	};
 	
