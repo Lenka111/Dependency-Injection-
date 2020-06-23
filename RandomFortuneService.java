@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomFortuneService implements FortuneService {
 
 	// create an array of fortune messages
-	private String[] data = { 
+	private String[] fortunes = { 
 			"Today is your lucky day",
 			"you look hungry",
 			"Don't worry, be happy"
@@ -20,7 +20,7 @@ public class RandomFortuneService implements FortuneService {
 		int index = myRandom.nextInt(data.length);
 		
 		//random message 
-		String theFortune = data[index];
+		String theFortune = fortunes[index];
 		
 		return theFortune;
 	}
